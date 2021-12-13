@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang="de">
+<meta charset="UTF-8">
+
+<head>
+<title>Formular</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <a href="../Homework_Formular_Sitzplatzreservierung_Angabe/formular_index_fS.html">Zur Sitzplatzreservierung</a>
+    <a href="../exercise_table/index.html">Pizzeria</a>
+<h1>KURSANMELDUNG</h1>
+    <br>
+    
+    <form method="get"><fieldset>
+        <legend>PERSÖNLICHE DATEN</legend>
+        
+        <label for="anrede">Anrede:</label>
+        <input type="radio" name="geschlecht" value="w" id="anrede">Herr
+        <input type="radio" name="geschlecht" value="m">Frau
+        <br>
+       <label for="name">Vorname:  </label><input type="text" name="name" id="name">
+        <br>
+        <label for="nachname">Nachname: </label> <input type="text" name="name" id="aftername">
+        <br>
+        <label for="straße">Straße:</label> <input type="text" name="Straße" id="straße">
+        <br>
+       <label for="PLZ"> PLZ:</label> <input type="text" name="PLZ">  Ort: <input type="text" name="Ort">
+        
+        <br>
+        
+        </fieldset></form>
+    <br>
+    <form method="get"><fieldset>
+        
+        <legend>KURSWÜNSCHE</legend>
+        
+        <form action=" " method="">
+            <label>Gewünschter Kurs:</label> <select name="Gewünschter Kurs" size="1">
+             <option value="Aerobic">Aerobic</option>
+                <option value="Gym">Gym</option>
+                <option value="Rodln">Rodln</option>
+            </select>
+            <br>
+            <label>Niveau:</label> <input type="radio" name="Niveau" value="w">Anfänger
+            <input type="radio" name="Niveau" value="m">Fortgeschritten
+            <br>
+            <input type="checkbox" name="AGB zustimmung"><label>AGB gelesen?</label>
+        </form>
+        
+        </fieldset></form>
+    
+    </body>
