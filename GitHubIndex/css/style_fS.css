@@ -1,0 +1,76 @@
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font-family:'Calibri';
+    background-color:gray;
+    color:white;
+  }
+  
+ img{
+  	display: block;
+     margin:auto;
+  }
+  
+#formular_box{
+	background-color: #333333;
+    height:80%;
+    padding:2%;
+    width:50%;
+    margin:auto;
+    margin-top: 1%
+}
+
+<h1{
+	text-shadow: 1em 1em #000;
+	font-size: 150%;
+    color:skyblue;
+}
+
+
+legend{
+	font-size:110%;
+    color:deepskyblue;
+}
+
+label{
+    width: 15%;
+    float:left;
+}
+
+/************************************
+ * Absenden-Button
+ *************************************/
+input[type=submit]{
+    background-color:skyblue;
+    margin-top: 0.8%;
+}
+
+input{
+    margin:0.4%
+}
+
+/************************************
+ * Text- und Eingabefelder deklarieren
+ *************************************/
+ 
+
+<input, textarea
+{ 
+padding: 4%;
+background: #FFF;}
+
+i<nput[type="radio"] { 
+
+
+}
+in<put[type="checkbox"] { 
+}
+
+
+
+
+  
+
